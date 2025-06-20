@@ -28,6 +28,7 @@ Telegram
 |-|--------|
 |https://github.com/HSE-CW-Secret-Scanner/airflow-dags| DAG'и для сканирования репозиториев и отправки уведомлений в Telegram|
 |https://github.com/HSE-CW-Secret-Scanner/llm-testing| Тестирование больших языковых моделей (LLM) с помощью Ollama|
+|https://github.com/HSE-CW-Secret-Scanner/kafka-event-manager| Потоковая обработка событий с помощью Kafka|
 |https://github.com/HSE-CW-Secret-Scanner/secrets-db|Dump базы данных для хранения секретов|
 |https://github.com/HSE-CW-Secret-Scanner/kafka-deployment| Развертывание сервера Kafka|
 |https://github.com/HSE-CW-Secret-Scanner/airflow-deployment| Развертывание сервера Airflow, Prometheus, Grafana|
