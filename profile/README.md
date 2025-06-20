@@ -9,3 +9,25 @@
 - интеграцию с GitHub через Webhooks для отслеживания изменений в репозиториях.
   
 Результаты сканирования сохраняются в PostgreSQL, а визуализация данных осуществляется через дашборды Grafana.
+### Технологический стек
+##### Сканирование
+Python 3.10 (requests, SQLAlchemy, pandas)  
+noseyparker  
+LLaMa3.1 (Ollama)  
+##### Оркестрация
+Airflow 2.5.3  
+##### Хранение данных
+PostgreSQL 13 
+##### Мониторинг и визуализация данных
+Prometheus  
+Grafana  
+##### Оповещения и отчеты
+Telegram
+### Репозитории
+|Ссылка|Описание|
+|-|--------|
+|https://github.com/HSE-CW-Secret-Scanner/airflow-dags| DAG'и для сканирования репозиториев и отправки уведомлений в Telegram|
+|https://github.com/HSE-CW-Secret-Scanner/llm-testing| Тестирование больших языковых моделей (LLM) с помощью Ollama|
+|https://github.com/HSE-CW-Secret-Scanner/secrets-db|Dump базы данных для хранения секретов|
+|https://github.com/HSE-CW-Secret-Scanner/kafka-deployment| Развертывание сервера Kafka|
+|https://github.com/HSE-CW-Secret-Scanner/airflow-deployment| Развертывание сервера Airflow, Prometheus, Grafana|
